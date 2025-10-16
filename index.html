@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NELAYA-AI — Ocean Intelligence for Fisheries</title>
+  <meta name="description" content="NELAYA-AI: Platform AI untuk analitik kelautan, prediksi pertumbuhan ikan (FGI), dan decision support perikanan-akuakultur." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .gradient { background: radial-gradient(1200px 600px at 60% -20%, rgba(56,189,248,.25), transparent), linear-gradient(180deg, #020617 0%, #020617 60%, #0b1220 100%); }
+    .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); }
+  </style>
+</head>
+<body class="gradient text-slate-100">
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 backdrop-blur border-b border-white/10 bg-slate-950/60">
+    <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-extrabold tracking-tight text-cyan-300">
+        <span class="text-xl">🌊 NELAYA-AI</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#fitur" class="hover:text-white">Fitur</a>
+        <a href="#demo" class="hover:text-white">Demo</a>
+        <a href="#kontak" class="hover:text-white">Kontak</a>
+      </nav>
+      <a href="#kontak" class="inline-flex items-center gap-2 rounded-xl bg-cyan-400/20 px-4 py-2 text-cyan-200 hover:bg-cyan-400/30">
+        Dapatkan Akses
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative">
+    <div class="mx-auto max-w-7xl px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          Ocean Intelligence untuk<br class="hidden md:block"/><span class="text-cyan-300">Perikanan & Akuakultur</span>
+        </h1>
+        <p class="mt-5 text-slate-300 text-lg max-w-xl">
+          NELAYA-AI mengubah data laut menjadi keputusan: <strong>prediksi Fish Growth Index (FGI)</strong>, visualisasi 3D, dan insight operasional berbasis AI.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#demo" class="rounded-xl bg-cyan-500 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-400">Lihat Demo</a>
+          <a href="#fitur" class="rounded-xl border border-white/20 px-5 py-3 font-semibold hover:bg-white/10">Jelajahi Fitur</a>
+        </div>
+        <p class="mt-4 text-xs text-slate-400">Made for Indonesia • Works with satellite & in-situ data • API + Dashboard</p>
+      </div>
+      <div>
+        <div class="card rounded-2xl p-6">
+          <div class="aspect-[16/10] w-full rounded-xl bg-gradient-to-br from-cyan-400/20 to-emerald-400/10 flex items-center justify-center">
+            <div class="text-center px-6">
+              <p class="text-cyan-200 font-semibold">FGI • AI Inference</p>
+              <h3 class="text-2xl font-bold">Skor FGI: 0.47 — Medium</h3>
+              <p class="text-sm text-slate-300 mt-2">Contoh tampilan dashboard NELAYA-AI.</p>
+            </div>
+          </div>
+          <div class="mt-4 grid grid-cols-3 gap-3 text-center text-xs text-slate-300">
+            <div class="card rounded-xl p-3"><p class="text-slate-400">Suhu</p><p class="font-semibold">28.0°C</p></div>
+            <div class="card rounded-xl p-3"><p class="text-slate-400">Salinitas</p><p class="font-semibold">33 PSU</p></div>
+            <div class="card rounded-xl p-3"><p class="text-slate-400">Klorofil</p><p class="font-semibold">0.5 mg/m³</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITUR -->
+  <section id="fitur" class="py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Fitur Utama</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6">
+          <h3 class="font-semibold text-lg">🤖 AI Inference (FGI)</h3>
+          <p class="mt-2 text-slate-300">Prediksi <em>Fish Growth Index</em> dari parameter laut (Suhu, Salinitas, Klorofil) + kategori Low/Medium/High.</p>
+        </div>
+        <div class="card rounded-2xl p-6">
+          <h3 class="font-semibold text-lg">📈 Evaluator & Insight</h3>
+          <p class="mt-2 text-slate-300">Logging otomatis, statistik, tren, dan evaluasi performa model untuk pengambilan keputusan.</p>
+        </div>
+        <div class="card rounded-2xl p-6">
+          <h3 class="font-semibold text-lg">🌐 Visualizer 3D</h3>
+          <p class="mt-2 text-slate-300">Plot interaktif hubungan Suhu–Salinitas–Klorofil dan pengaruhnya terhadap FGI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="py-16 border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Demo</h2>
+      <p class="mt-3 text-slate-300">Kamu bisa menjalankan demo lokal (dashboard & API) atau minta akses cloud privat.</p>
+      <div class="mt-6 card rounded-2xl p-6">
+        <ol class="list-decimal list-inside text-slate-200 space-y-2 text-sm">
+          <li>Jalankan API: <code class="bg-black/40 rounded px-2 py-1">bash scripts/run_api.sh</code></li>
+          <li>Jalankan Dashboard: <code class="bg-black/40 rounded px-2 py-1">bash scripts/run_web.sh</code></li>
+          <li>Buka <code class="bg-black/40 rounded px-2 py-1">http://127.0.0.1:8501</code> → menu <strong>AI Inference</strong>.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="py-16 border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h2 class="text-3xl font-extrabold">Kontak</h2>
+        <p class="mt-3 text-slate-300">Ingin uji coba, kolaborasi data, atau integrasi sensor? Hubungi kami.</p>
+        <ul class="mt-4 text-slate-300 space-y-2 text-sm">
+          <li>📧 Email: <a class="text-cyan-300 hover:underline" href="mailto:hello@nelaya-ai.id">hello@nelaya-ai.id</a></li>
+          <li>🏢 PT NELAYA AI (contoh) — Jakarta, Indonesia</li>
+          <li>🌏 Website ini dapat digunakan sebagai referensi pendaftaran data provider (Copernicus, dsb).</li>
+        </ul>
+      </div>
+      <form class="card rounded-2xl p-6 space-y-4" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan terkirim. (integrasikan ke Formspree/EmailJS untuk produksi)');">
+        <div>
+          <label class="block text-sm text-slate-300">Nama</label>
+          <input required class="mt-1 w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2" placeholder="Nama kamu" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-300">Email</label>
+          <input required type="email" class="mt-1 w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2" placeholder="email@contoh.com" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-300">Pesan</label>
+          <textarea rows="4" class="mt-1 w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2" placeholder="Tulis pesan..."></textarea>
+        </div>
+        <button class="rounded-xl bg-cyan-500 px-5 py-2 font-semibold text-slate-950 hover:bg-cyan-400">Kirim</button>
+        <p class="text-xs text-slate-400">Untuk produksi: sambungkan ke <a class="underline" href="https://formspree.io/" target="_blank">Formspree</a> / EmailJS / backend API.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 py-8 text-sm text-slate-400 flex flex-col md:flex-row items-center justify-between">
+      <p>© <span id="y"></span> NELAYA-AI • Ocean Intelligence</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-white">Kebijakan Privasi</a>
+        <a href="#" class="hover:text-white">Syarat Layanan</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
