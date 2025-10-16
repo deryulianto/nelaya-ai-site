@@ -12,4 +12,4 @@ Live: https://deryulianto.github.io/nelaya-ai-site/
 - `.nojekyll` — menonaktifkan Jekyll pada GitHub Pages
 
 ## Kontak
-- Email: hello@nelaya-ai.id
+- Email: triple.cgis@gmail.com
